@@ -19,6 +19,8 @@ A smart wearable glove that translates hand gestures into text and speech using 
 6. **Battery** (Power bank or LiPo battery via 5V/USB).
 7. **Jumper Wires & Breadboard/PCB**.
 
+   ![wiring](wiring_esp32.jpeg)
+
 ##  Circuit Connections
 **Critical Note:** When using WiFi on the ESP32, you **cannot** use ADC2 pins. You must use **ADC1** pins for the analog sensors.
 
@@ -45,7 +47,7 @@ A smart wearable glove that translates hand gestures into text and speech using 
 3. **Install Libraries**:
    - Go to `Sketch` > `Include Library` > `Manage Libraries`.
    - Install **Adafruit MPU6050** and **Adafruit Unified Sensor**.
-
+![code](code_esp32.jpeg)
 ##  Configuration & Calibration
 
 1. Upload the code and open the **Serial Monitor** (115200 baud).
